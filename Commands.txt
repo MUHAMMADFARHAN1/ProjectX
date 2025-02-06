@@ -1,0 +1,81 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd  farha/
+    5  ls
+    6  cd Documents/
+    7  l
+    8  ls
+    9  mkdir ProjectX
+   10  cd ProjectX/
+   11  mkdir doc src data
+   12  ls
+   13  cd reports
+   14  mkrdir data
+   15  ls
+   16  cd doc/
+   17  mkdir reports images
+   18  cd ..
+   19  cd src
+   20  mkdir html css js
+   21  cd ..
+   22  ls
+   23  cd doc/images/
+   24  touch .gitkeep
+   25  cd ..
+   26  cd ..
+   27  ls
+   28  cd data/
+   29  ls
+   30  cat "Hello Data" > data.txt
+   31  echo "Hello Data" > data.txt
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd src/html/
+   36  ls
+   37  touch index.html
+   38  cd ..
+   39  cd css/
+   40  touch style.css
+   41  cd ../js/
+   42  touch script.js
+   43  cd ../../doc/reports/
+   44  mkdir report_one.txt report_two.txt
+   45  ls
+   46  rm -d report_one.txt/ report_two.txt/
+   47  ls
+   48  touch report_one.txt report_two.txt
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd ..
+   53  tree
+   54  ls
+   55  git init
+   56  git add .
+   57  git commit -m "initial setup"
+   58  git push
+   59  git remote add git@github.com:MUHAMMADFARHAN1/ProjectX.git
+   60  git push
+   61  git remote add ProjectX https://github.com/MUHAMMADFARHAN1/ProjectX.git
+   62  git push
+   63  git push --set-upstream ProjectX master
+   64  git push --set-upstream ProjectX master
+   65  git branch first-feature
+   66  code .
+   67  git add .
+   68  git commit -m "HTML modified"
+   69  git push
+   70  git branch
+   71  git reset HEAD~1 --hard
+   72  git switch first-feature
+   73  code .
+   74  git add .
+   75  git commit -m "HTML modified"
+   76  git push
+   77  git push --set-upstream ProjectX first-feature
+   78  git switch master
+   79  git push --force
+   80  git status
+   81  history
